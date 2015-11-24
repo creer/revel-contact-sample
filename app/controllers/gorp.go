@@ -28,8 +28,8 @@ func InitDB() {
 
 	//初期データ挿入
 	contacts := []*models.Contact{
-		&models.Contact{0, "kato", "mail@go8.jp", "コメント"},
-		&models.Contact{0, "kato2", "mail2@go8.jp", "コメント2"},
+		&models.Contact{0, "kato", "mail@test.jp", "コメント"},
+		&models.Contact{0, "kato2", "mail2@test.jp", "コメント2"},
 	}
 	for _, contact := range contacts {
 		if err := Dbm.Insert(contact); err != nil {
