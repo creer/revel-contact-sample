@@ -1,0 +1,28 @@
+{{set . "title" "Home"}}
+{{template "header.html" .}}
+
+<header class="hero-unit" style="background-color:#A9F16C">
+  <div class="container">
+    <div class="row">
+      <div class="hero-text">
+        <h1>お問い合わせ 完了</h1>
+        <p></p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="span6">
+
+      {{.flash.Name}}様<br />
+      お問い合わせありがとうございました。<br />
+      <br />
+      <a href="{{url "App.Index"}}">一覧へ戻る</a>
+
+    </div>
+  </div>
+</div>
+
+{{template "footer.html" .}}
