@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/revel/revel"
-	"myform/app/models"
+	"github.com/creer/revel-contact-sample/app/models"
 )
 
 type Contact struct {

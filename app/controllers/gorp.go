@@ -6,7 +6,7 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/revel/revel"
 	"github.com/revel/modules/db/app"
-	"myform/app/models"
+	"github.com/creer/revel-contact-sample/app/models"
 )
 
 var (
